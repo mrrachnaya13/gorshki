@@ -5,14 +5,14 @@ window.siteData = {
       title: "Растения",
       href: "plants.html",
       image:
-        "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=700&q=80"
+        "https://eragarden-shop.ru/dekorativniy-gorshok-pod-beton-rumba/?srsltid=AfmBOopCOBK98joroVfI9WqX6MjwYzbV0-2IecO_4A28Yep_8kVEqm4E"
     },
     {
       id: "pots",
       title: "Горшки",
       href: "pots.html",
       image:
-        "https://images.unsplash.com/photo-1493666438817-866a91353ca9?auto=format&fit=crop&w=700&q=80"
+        "https://eragarden-shop.ru/dekorativniy-gorshok-pod-beton-rumba/?srsltid=AfmBOopCOBK98joroVfI9WqX6MjwYzbV0-2IecO_4A28Yep_8kVEqm4E0"
     },
     {
       id: "accessories",
@@ -30,7 +30,7 @@ window.siteData = {
     }
   ],
   hero:
-    "https://images.unsplash.com/photo-1463320726281-696a485928c7?auto=format&fit=crop&w=1600&q=80",
+    "https://eragarden-shop.ru/dekorativniy-gorshok-pod-beton-rumba/?srsltid=AfmBOopCOBK98joroVfI9WqX6MjwYzbV0-2IecO_4A28Yep_8kVEqm4E",
   pages: {
     plants: {
       title: "Комнатные растения",
@@ -40,7 +40,7 @@ window.siteData = {
           name: "Монстера",
           text: "Крупные декоративные листья",
           image:
-            "https://images.unsplash.com/photo-1614594975525-e45190c55d0b?auto=format&fit=crop&w=800&q=80"
+            "https://eragarden-shop.ru/dekorativniy-gorshok-pod-beton-rumba/?srsltid=AfmBOopCOBK98joroVfI9WqX6MjwYzbV0-2IecO_4A28Yep_8kVEqm4E"
         },
         {
           name: "Фикус эластика",
