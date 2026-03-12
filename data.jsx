@@ -19,7 +19,7 @@ window.siteData = {
       title: "Аксессуары",
       href: "accessories.html",
       image:
-        "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=700&q=80"
+        "https://eragarden-shop.ru/dekorativniy-gorshok-pod-beton-rumba/?srsltid=AfmBOopCOBK98joroVfI9WqX6MjwYzbV0-2IecO_4A28Yep_8kVEqm4E"
     },
     {
       id: "succulents",
