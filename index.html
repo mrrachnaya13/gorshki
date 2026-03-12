@@ -1,5 +1,119 @@
-<h1>Example web site</h1>
-<p>это пример веб-сайта))</p>
-<img src="https://media.tenor.com/9EWwYOJnM_oAAAAM/cute-cats.gif"/>
-<p>текстовый файл с расширением .html</p>
-<p>привет мир</p>
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Магазин растений</title>
+    <style>
+      :root {
+        --green: #1f5b37;
+        --bg: #f3f3f3;
+        --card-radius: 24px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Inter", "Segoe UI", Arial, sans-serif;
+        background: var(--green);
+        color: #232323;
+      }
+
+      .page {
+        max-width: 760px;
+        margin: 46px auto;
+        background: var(--bg);
+        border-radius: 0;
+        padding: 28px 28px 36px;
+      }
+
+      .tabs {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 18px;
+      }
+
+      .tab {
+        position: relative;
+        min-height: 130px;
+        border-radius: var(--card-radius);
+        overflow: hidden;
+        text-decoration: none;
+        display: flex;
+        align-items: flex-end;
+        color: #2f2f2f;
+        font-size: 34px;
+        line-height: 1;
+      }
+
+      .tab img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .tab span {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        padding: 14px;
+        background: linear-gradient(transparent, rgba(255, 255, 255, 0.75));
+      }
+
+      .hero {
+        margin-top: 28px;
+        border-radius: var(--card-radius);
+        overflow: hidden;
+      }
+
+      .hero img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        display: block;
+      }
+
+      @media (max-width: 720px) {
+        .tabs {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        .tab {
+          min-height: 160px;
+          font-size: 28px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <section class="tabs" aria-label="Категории товаров">
+        <a class="tab" href="#plants">
+          <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=500&q=80" alt="Растения" />
+          <span>Растения</span>
+        </a>
+        <a class="tab" href="#pots">
+          <img src="https://images.unsplash.com/photo-1493666438817-866a91353ca9?auto=format&fit=crop&w=500&q=80" alt="Горшки" />
+          <span>Горшки</span>
+        </a>
+        <a class="tab" href="#accessories">
+          <img src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=500&q=80" alt="Аксессуары" />
+          <span>Аксессуары</span>
+        </a>
+        <a class="tab" href="#succulents">
+          <img src="https://images.unsplash.com/photo-1459156212016-c812468e2115?auto=format&fit=crop&w=500&q=80" alt="Суккуленты" />
+          <span>Суккуленты</span>
+        </a>
+      </section>
+
+      <section class="hero" aria-label="Большое фото растения">
+        <img src="https://images.unsplash.com/photo-1463320726281-696a485928c7?auto=format&fit=crop&w=1400&q=80" alt="Большое изображение растения" />
+      </section>
+    </main>
+  </body>
+</html>
